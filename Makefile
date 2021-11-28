@@ -68,20 +68,20 @@ run-validation-tasks: ## Run all validation tasks in sequence, fail on first err
 	@echo --
 
 url = https://s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump.json
-run-python-task:
+run-get-raw-data:
 	poetry run python \
 	get_raw_data.py --url=$(url)
 
 task_type = etl
 task_name = raw_to_parse
 
-run-spark-local:
+run-spark-local-etl:
 	poetry run spark-submit \
 	--master local[*] \
-	main.py --task_type=$(task_type) --task_name $(task_name)
+	main.py --task_type=etl --task_name $(task_name)
 
 
-run-spark-local_sql:
+run-spark-local-sql:
 	poetry run spark-submit \
 	--master local[*] \
 	main.py --task_type=sql --task_name=get_top_5_coauthors #--write_to_file=True
