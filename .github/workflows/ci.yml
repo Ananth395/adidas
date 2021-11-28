@@ -29,11 +29,6 @@ jobs:
           restore-keys: |
             poetry-${{ hashFiles('**/poetry.lock') }}
 
-      - name: Set Poetry config
-        run: |
-          poetry config virtualenvs.in-project true
-          poetry config settings.virtualenvs.path ~/.virtualenvs
-
       - name: Install Dependencies
         run: poetry install
         if: steps.cache.outputs.cache-hit != 'true'
