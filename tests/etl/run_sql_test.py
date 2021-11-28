@@ -1,3 +1,6 @@
+"""
+Testing for Run SQL module
+"""
 import unittest
 from pyspark.sql import SparkSession
 from adidas.etl.run_sql import RunSql

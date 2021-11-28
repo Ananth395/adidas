@@ -1,5 +1,5 @@
 """
-Testing for helpers module
+Testing for utils module
 """
 import unittest
 

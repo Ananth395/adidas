@@ -1,3 +1,7 @@
+"""
+Testing for Raw_to_parse module
+"""
+
 import unittest
 from pyspark.sql import SparkSession
 from adidas.etl.raw_to_parse import RawToParse

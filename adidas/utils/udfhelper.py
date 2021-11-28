@@ -6,6 +6,10 @@ from pyspark.sql.types import StringType
 
 
 class UDFHelper:
+    """
+    Used for decorating python function as pyspark
+    """
+
     def __init__(self, returnType: StringType()):
         self.spark_udf_type = returnType
 

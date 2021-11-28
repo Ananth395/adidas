@@ -24,10 +24,20 @@ def start_spark(app_name):
 
 
 def _check_if_etl_task_exists(task_name) -> bool:
+    """
+    checks if the etl task is valid
+    :param task_name: name of the task to be validated
+    :return: bool
+    """
     return task_name in settings.etl_tasks
 
 
 def _check_if_sql_task_exists(task_name) -> bool:
+    """
+    checks if the sql task is valid
+    :param task_name: name of the task to be validated
+    :return: bool
+    """
     return task_name in settings.sql_tasks
 
 

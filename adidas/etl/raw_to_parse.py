@@ -1,5 +1,3 @@
-from functools import reduce
-
 from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.functions import col
@@ -10,6 +8,10 @@ from adidas.utils.utils import parse_datetime
 
 
 class RawToParse(ETLBase):
+    """
+    Class helps to read, process and load data from raw to parse layer
+    """
+
     def __init__(self, spark, logger, settings):
         super().__init__(logger)
         self.spark: SparkSession = spark
@@ -77,8 +79,8 @@ class RawToParse(ETLBase):
     @staticmethod
     def _add_load_date(df: DataFrame, partition_col_name: str) -> DataFrame:
         """
-        Appends current_date to new column
-        :param df: Input Dataframe
+        Appends current_date as new column for audit purpose
+        :param df: Dataframe
         :param partition_col_name: column name
         :return: Stage Dataframe
         """
@@ -105,8 +107,8 @@ class RawToParse(ETLBase):
     @staticmethod
     def _normalize_publish_date(df: DataFrame) -> DataFrame:
         """
-        Generates to cook time
-        :param df: filtered dataframe
+        Helps to normalize publish_date column
+        :param df: dataframe
         :return: Dataframe
         """
         df = df.withColumn("new_publish_date", parse_datetime(col("publish_date")))
@@ -122,4 +124,9 @@ class RawToParse(ETLBase):
         return df
 
     def _read_json_file(self, dir_name) -> DataFrame:
+        """
+        helps to read json data files
+        :param dir_name: name of the directory containing the files
+        :return: Dataframe
+        """
         return self.spark.read.json(dir_name)
