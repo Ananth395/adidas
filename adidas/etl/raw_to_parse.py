@@ -68,9 +68,20 @@ class RawToParse(ETLBase):
     def _load(self, df: DataFrame) -> None:
         try:
             self.logger.info("loading data into parse")
+            part_num = self.spark.sparkContext.defaultParallelism
+            if df.rdd.getNumPartitions() > part_num:
+                df = df.coalesce(part_num)
+            # df.persist(StorageLevel.MEMORY_AND_DISK)
             df.write.partitionBy(self.settings.CONFIG["parse_partition_col"]).mode(
                 "overwrite"
             ).orc(self.settings.CONFIG["parse_dir"])
+
+            # psuedo code to save dataframe as table
+            # if self.table_exists(target_db, table):
+            #     self.drop_seq_partitions(sch_name, seq)
+            #     df.write.format("orc").insertInto(table_name)
+            # else:
+            #     df.write.saveAsTable(table_name, "orc", "append", "load_date")
         except Exception as e:
             self.logger.error("error while writing data in parse")
             self.logger.exception(e)
