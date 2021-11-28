@@ -2175,3 +2175,61 @@ FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
 2021-11-28 15:55:33,832 [INFO] Starting to download file:ol_cdump.json
 2021-11-28 15:55:59,053 [INFO] Starting to download file:ol_cdump.json
 2021-11-28 15:56:26,469 [INFO] file:ol_cdump.json successfully downloaded
+2021-11-28 18:13:13,218 [INFO] Starting Spark Application with id: local-1638119591975
+2021-11-28 18:13:13,218 [INFO] Starting to execute sql-task_name:get_top_5_coauthors
+2021-11-28 18:13:19,703 [INFO] Completed execution of sql-task_name:get_top_5_coauthors
+2021-11-28 18:13:19,703 [INFO] Completed Spark Application id: local-1638119591975
+2021-11-28 18:13:19,703 [INFO] Stopping SparkSession
+2021-11-28 18:13:40,737 [INFO] Starting Spark Application with id: local-1638119619524
+2021-11-28 18:13:40,737 [INFO] Starting to execute sql-task_name:get_top_5_genres
+2021-11-28 18:13:45,792 [INFO] Completed execution of sql-task_name:get_top_5_genres
+2021-11-28 18:13:45,792 [INFO] Completed Spark Application id: local-1638119619524
+2021-11-28 18:13:45,793 [INFO] Stopping SparkSession
+2021-11-28 18:14:06,210 [INFO] Starting Spark Application with id: local-1638119644945
+2021-11-28 18:14:06,210 [INFO] Starting to execute sql-task_name:get_book_with_most_pages
+2021-11-28 18:14:06,210 [ERROR] Error while running sql-task_name:get_book_with_most_pages
+2021-11-28 18:14:06,210 [ERROR] 'table_name'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/run_sql.py", line 34, in run_sql
+    sql = self._read_sql_file(
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/run_sql.py", line 95, in _read_sql_file
+    pkg_resources.resource_string(dir_name, sql_file)
+KeyError: 'table_name'
+2021-11-28 18:14:06,211 [ERROR] Exiting application
+2021-11-28 18:14:06,211 [ERROR] 
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/run_sql.py", line 34, in run_sql
+    sql = self._read_sql_file(
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/run_sql.py", line 95, in _read_sql_file
+    pkg_resources.resource_string(dir_name, sql_file)
+KeyError: 'table_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/application.py", line 74, in main
+    RunSql(
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/run_sql.py", line 56, in run_sql
+    raise Exception from e
+Exception
+2021-11-28 18:14:06,211 [INFO] Stopping SparkSession
+2021-11-28 18:14:26,201 [INFO] Starting Spark Application with id: local-1638119664990
+2021-11-28 18:14:26,201 [INFO] Starting to execute sql-task_name:get_book_with_most_pages
+2021-11-28 18:14:31,245 [INFO] Completed execution of sql-task_name:get_book_with_most_pages
+2021-11-28 18:14:31,245 [INFO] Completed Spark Application id: local-1638119664990
+2021-11-28 18:14:31,246 [INFO] Stopping SparkSession
+2021-11-28 18:14:44,448 [INFO] Starting Spark Application with id: local-1638119683215
+2021-11-28 18:14:44,448 [INFO] Starting to execute sql-task_name:get_no_of_published_books_and_authors
+2021-11-28 18:14:50,282 [INFO] Completed execution of sql-task_name:get_no_of_published_books_and_authors
+2021-11-28 18:14:50,282 [INFO] Completed Spark Application id: local-1638119683215
+2021-11-28 18:14:50,282 [INFO] Stopping SparkSession
+2021-11-28 18:15:03,412 [INFO] Starting Spark Application with id: local-1638119702216
+2021-11-28 18:15:03,413 [INFO] Starting to execute sql-task_name:get_no_of_authors_with_one_book_per_yr
+2021-11-28 18:15:08,696 [INFO] Completed execution of sql-task_name:get_no_of_authors_with_one_book_per_yr
+2021-11-28 18:15:08,696 [INFO] Completed Spark Application id: local-1638119702216
+2021-11-28 18:15:08,696 [INFO] Stopping SparkSession
+2021-11-28 18:15:23,734 [INFO] Starting Spark Application with id: local-1638119722518
+2021-11-28 18:15:23,735 [INFO] Starting to execute sql-task_name:get_top_5_coauthors
+2021-11-28 18:15:30,112 [INFO] Completed execution of sql-task_name:get_top_5_coauthors
+2021-11-28 18:15:30,112 [INFO] Completed Spark Application id: local-1638119722518
+2021-11-28 18:15:30,112 [INFO] Stopping SparkSession

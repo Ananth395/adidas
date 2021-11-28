@@ -12,7 +12,7 @@ SELECT explode(authors.key) as author,
 publish_year,
 publish_month,
 key
-FROM {table_name}
+FROM {parsed_table_name}
 WHERE cast(publish_year as int) between 1950 and 1970
 ) GROUP BY publish_year, publish_month
 ) authors
@@ -25,7 +25,7 @@ FROM (
 SELECT publish_year,
 publish_month,
 key
-FROM {table_name}
+FROM {parsed_table_name}
 WHERE cast(publish_year as int) between 1950 and 1970)
 GROUP BY publish_year, publish_month
 ) books

@@ -4,7 +4,7 @@ FROM (
 SELECT
 explode(authors.key) as author,
 publish_year
-FROM {table_name}
+FROM {parsed_table_name}
 )
 GROUP BY publish_year
 HAVING count(*) > 1

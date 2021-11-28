@@ -5,13 +5,13 @@ count(*) as cnt
 FROM
 (
 SELECT explode(authors.key) as co_authors
-FROM {table_name} 
+FROM {parsed_table_name}
 WHERE key in (
 SELECT key 
 FROM (
 SELECT explode(authors.key) as authors,
 key 
-FROM {table_name}
+FROM {parsed_table_name}
 )
 GROUP BY key
 HAVING count(*) > 1

@@ -95,6 +95,6 @@ class RunSql:
             pkg_resources.resource_string(dir_name, sql_file)
             .decode()
             .strip()
-            .format(table_name=table_name)
+            .format(parsed_table_name=table_name)
         )
         return sql_template

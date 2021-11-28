@@ -1,1 +1,1 @@
-test {table_name}
+test {parsed_table_name}
