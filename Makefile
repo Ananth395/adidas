@@ -105,5 +105,5 @@ run-task-cluster:
 	--conf "spark.pyspark.python=/opt/rh/rh-python38/root/bin/python" \
 	--conf "spark.sql.shuffle.partitions=$(PARTITIONS)" \
 	--conf "spark.sql.hive.filesourcePartitionFileCacheSize=1073741824" \
-	--py-files "Ananth395-data-engineering-test/dist/hellofresh-0.1.0-py3.8.egg" \
+	--py-files "adidas/dist/adidas-0.1.0-py3.8.egg" \
 	main.py --task_type=$(task_type) --task_name $(task_name)
