@@ -2,7 +2,7 @@ from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.operators.bash import BashOperator
 
-ETL_CODE_LOCATION = "s3://adidas-etl-binaries/adidas-etl/latest"
+ETL_CODE_LOCATION = "hdfs://adidas-etl-binaries/adidas-etl/latest"  # dummy location
 
 default_args = {
     "owner": "ananth395",
@@ -44,11 +44,11 @@ def _spark_submit_operator(task_type: str, task_name: str) -> BashOperator:
 
 
 with DAG(
-    "adidas_airflow_job", default_args=default_args, schedule_interval=timedelta(1)
+        "adidas_airflow_job", default_args=default_args, schedule_interval=timedelta(1)
 ) as dag:
     print_date = BashOperator(task_id="print_date", bash_command="date")
     get_raw_data = _python_operator(
-        url="https://s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump1.json"
+        url="https://s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump.json"
     )
 
     etl_raw_to_parse = _spark_submit_operator(task_type="etl", task_name="raw_to_parse")

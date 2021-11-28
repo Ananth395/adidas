@@ -48,18 +48,6 @@ class RawToParse(ETLBase):
             df = self._add_load_date(df, self.settings.CONFIG["parse_partition_col"])
 
             return df
-            # return \
-            #     self._add_load_date(
-            #         self._filter_data(
-            #             self._remove_nulls(
-            #                 self._filter_data(
-            #                     self._remove_nulls(df, column_name='publish_date'),
-            #                     column_name='publish_date', val=self.settings.CONFIG["filter_on_publish_date"]),
-            #                 column_name="title"),
-            #             column_name="number_of_pages", val=self.settings.CONFIG["filter_on_number_of_pages"]),
-            #         self.settings.CONFIG["parse_partition_col"]
-            #     )
-            # return self._add_load_date(df, self.settings.CONFIG["parse_partition_col"])
         except Exception as e:
             self.logger.error("error while enriching data for stage")
             self.logger.exception(e)
