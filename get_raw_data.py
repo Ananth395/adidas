@@ -3,10 +3,10 @@ import click
 
 
 @click.command()
-@click.option('--url', help='url of the file to be downloaded.')
+@click.option("--url", help="url of the file to be downloaded.")
 def get_raw_data(url):
     RawData(url=url).download()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     get_raw_data()

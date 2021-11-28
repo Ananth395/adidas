@@ -28,7 +28,7 @@ run-unittests: ## Run unittests
 	poetry run pytest $(TEST_PGK_NAME)
 
 run-black: ## Format code with black
-	poetry run black $(APP_PGK_NAME)
+	poetry run black .
 
 run-check-black: ## Check if the style of the code conforms to the desired style
 	# First print the difference to the desired style
