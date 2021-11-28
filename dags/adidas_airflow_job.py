@@ -38,7 +38,7 @@ def _spark_submit_operator(task_type: str, task_name: str) -> BashOperator:
         --conf "spark.sql.shuffle.partitions=200" \
         --conf "spark.sql.hive.filesourcePartitionFileCacheSize=1073741824" \
         --py-files "adidas/dist/adidas-0.1.0-py3.8.egg" \
-        f"{ETL_CODE_LOCATION}/main.py --task_type=${task_type} --task_name ${task_name}
+        "{ETL_CODE_LOCATION}/main.py --task_type=${task_type} --task_name ${task_name}
         """,
     )
 
