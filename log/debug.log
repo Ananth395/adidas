@@ -1,0 +1,2177 @@
+2021-11-26 15:38:03,836 [INFO] Starting Spark Application with id: local-1637937482588
+2021-11-26 15:38:03,836 [ERROR] Exiting application
+2021-11-26 15:38:03,836 [INFO] Stopping SparkSession
+2021-11-26 15:38:38,877 [INFO] Starting Spark Application with id: local-1637937517555
+2021-11-26 15:38:38,877 [ERROR] Please provide valid task name. Check documentation
+2021-11-26 15:38:38,877 [ERROR] Exiting application
+2021-11-26 15:38:38,877 [INFO] Stopping SparkSession
+2021-11-26 15:39:35,033 [INFO] Starting Spark Application with id: local-1637937573815
+2021-11-26 15:39:35,034 [INFO] Starting main process
+2021-11-26 15:39:35,041 [ERROR] Exiting main process
+2021-11-26 15:39:35,041 [ERROR] Exiting application
+2021-11-26 15:39:35,041 [INFO] Stopping SparkSession
+2021-11-26 15:40:06,026 [INFO] Starting Spark Application with id: local-1637937604789
+2021-11-26 15:40:06,026 [INFO] Starting main process
+2021-11-26 15:40:11,363 [INFO] enriching data from raw
+2021-11-26 15:40:11,455 [INFO] loading data into parse
+2021-11-26 15:41:30,060 [INFO] Completed main process
+2021-11-26 15:41:30,060 [INFO] Completed Spark Application id: local-1637937604789
+2021-11-26 15:41:30,060 [INFO] Stopping SparkSession
+2021-11-26 16:59:54,579 [INFO] Starting Spark Application with id: local-1637942393152
+2021-11-26 16:59:54,579 [INFO] Starting main process
+2021-11-26 17:00:01,464 [INFO] enriching data from raw
+2021-11-26 17:00:01,621 [INFO] loading data into parse
+2021-11-26 17:00:01,725 [ERROR] error while writing data in parse
+2021-11-26 17:00:01,726 [ERROR] Partition column `load_date` not found in schema struct<alternate_names:array<string>,authors:array<struct<author:struct<key:string>,key:string,type:string>>,bio:string,birth_date:string,by_statement:string,contributions:array<string>,contributors:array<struct<name:string,role:string>>,copyright_date:string,covers:array<bigint>,created:struct<type:string,value:string>,death_date:string,description:string,dewey_decimal_class:array<string>,dewey_number:array<string>,download_url:array<string>,edition_name:string,excerpts:array<struct<excerpt:struct<type:string,value:string>,page:string>>,first_publish_date:string,first_sentence:string,full_title:string,fuller_name:string,genres:array<string>,ia_box_id:array<string>,ia_loaded_id:string,identifiers:struct<amazon:array<string>,amazon.co.uk_asin:array<string>,goodreads:array<string>,librarything:array<string>>,isbn_10:array<string>,isbn_13:array<string>,isbn_invalid:array<string>,isbn_odd_length:array<string>,key:string,languages:array<struct<key:string>>,last_modified:struct<type:string,value:string>,latest_revision:bigint,lc_classifications:array<string>,lccn:array<string>,links:array<struct<title:string,type:struct<key:string>,url:string>>,location:string,name:string,notes:string,number_of_pages:bigint,ocaid:string,oclc_number:array<string>,oclc_numbers:array<string>,other_titles:array<string>,pagination:string,personal_name:string,photos:array<bigint>,physical_dimensions:string,physical_format:string,publish_country:string,publish_date:string,publish_places:array<string>,publishers:array<string>,purchase_url:array<string>,revision:bigint,series:array<string>,source_records:array<string>,subject_people:array<string>,subject_place:array<string>,subject_places:array<string>,subject_time:array<string>,subject_times:array<string>,subjects:array<string>,subtitle:string,table_of_contents:array<struct<class:string,label:string,level:bigint,pagenum:string,title:string,type:string,value:string>>,title:string,title_prefix:string,type:struct<key:string>,uri_descriptions:array<string>,uris:array<string>,url:array<string>,website:string,weight:string,work_title:array<string>,work_titles:array<string>,works:array<struct<key:string>>>
+2021-11-26 17:00:01,734 [ERROR] Exiting main process
+2021-11-26 17:00:01,734 [ERROR] Exiting application
+2021-11-26 17:00:01,734 [INFO] Stopping SparkSession
+2021-11-26 17:02:31,895 [INFO] Starting Spark Application with id: local-1637942550353
+2021-11-26 17:02:31,896 [INFO] Starting main process
+2021-11-26 17:02:38,337 [INFO] enriching data from raw
+2021-11-26 17:02:38,584 [INFO] loading data into parse
+2021-11-26 17:02:47,681 [INFO] Completed main process
+2021-11-26 17:02:47,681 [INFO] Completed Spark Application id: local-1637942550353
+2021-11-26 17:02:47,681 [INFO] Stopping SparkSession
+2021-11-26 17:09:14,310 [INFO] Starting Spark Application with id: local-1637942952916
+2021-11-26 17:09:14,310 [INFO] Starting main process
+2021-11-26 17:09:20,391 [INFO] enriching data from raw
+2021-11-26 17:09:20,627 [INFO] loading data into parse
+2021-11-26 17:09:29,104 [INFO] Completed main process
+2021-11-26 17:09:29,104 [INFO] Completed Spark Application id: local-1637942952916
+2021-11-26 17:09:29,104 [INFO] Stopping SparkSession
+2021-11-26 17:47:20,762 [INFO] Starting Spark Application with id: local-1637945239162
+2021-11-26 17:47:20,763 [INFO] Starting main process
+2021-11-26 17:47:25,817 [INFO] enriching data from raw
+2021-11-26 17:47:26,052 [ERROR] error while enriching data for stage
+2021-11-26 17:47:26,052 [ERROR] 'DataFrame' object is not callable
+2021-11-26 17:47:26,052 [ERROR] Exiting main process
+2021-11-26 17:47:26,052 [ERROR] Exiting application
+2021-11-26 17:47:26,053 [INFO] Stopping SparkSession
+2021-11-26 17:48:29,046 [INFO] Starting Spark Application with id: local-1637945307842
+2021-11-26 17:48:29,046 [INFO] Starting main process
+2021-11-26 17:48:33,728 [INFO] enriching data from raw
+2021-11-26 17:48:33,962 [ERROR] error while enriching data for stage
+2021-11-26 17:48:33,962 [ERROR] transform() missing 2 required positional arguments: 'self' and 'func'
+2021-11-26 17:48:33,962 [ERROR] Exiting main process
+2021-11-26 17:48:33,962 [ERROR] Exiting application
+2021-11-26 17:48:33,962 [INFO] Stopping SparkSession
+2021-11-26 17:49:05,289 [INFO] Starting Spark Application with id: local-1637945344063
+2021-11-26 17:49:05,290 [INFO] Starting main process
+2021-11-26 17:49:10,247 [INFO] enriching data from raw
+2021-11-26 17:49:10,472 [ERROR] error while enriching data for stage
+2021-11-26 17:49:10,472 [ERROR] reduce expected at least 2 arguments, got 1
+2021-11-26 17:49:10,472 [ERROR] Exiting main process
+2021-11-26 17:49:10,473 [ERROR] Exiting application
+2021-11-26 17:49:10,473 [INFO] Stopping SparkSession
+2021-11-26 17:55:43,450 [INFO] Starting Spark Application with id: local-1637945742191
+2021-11-26 17:55:43,450 [INFO] Starting main process
+2021-11-26 17:55:48,439 [INFO] enriching data from raw
+2021-11-26 17:55:48,684 [INFO] loading data into parse
+2021-11-26 17:55:57,290 [INFO] Completed main process
+2021-11-26 17:55:57,290 [INFO] Completed Spark Application id: local-1637945742191
+2021-11-26 17:55:57,290 [INFO] Stopping SparkSession
+2021-11-26 17:56:36,026 [INFO] Starting Spark Application with id: local-1637945794736
+2021-11-26 17:56:36,027 [INFO] Starting main process
+2021-11-26 17:56:41,002 [INFO] enriching data from raw
+2021-11-26 17:56:41,251 [INFO] loading data into parse
+2021-11-26 17:56:49,650 [INFO] Completed main process
+2021-11-26 17:56:49,650 [INFO] Completed Spark Application id: local-1637945794736
+2021-11-26 17:56:49,650 [INFO] Stopping SparkSession
+2021-11-27 11:55:55,174 [INFO] Starting Spark Application with id: local-1638010553978
+2021-11-27 11:55:55,175 [ERROR] Exiting application
+2021-11-27 11:55:55,175 [INFO] Stopping SparkSession
+2021-11-27 11:56:31,410 [INFO] Starting Spark Application with id: local-1638010590204
+2021-11-27 11:56:33,875 [ERROR] Exiting application
+2021-11-27 11:56:33,876 [INFO] Stopping SparkSession
+2021-11-27 11:58:02,072 [INFO] Starting Spark Application with id: local-1638010680848
+2021-11-27 11:58:04,380 [ERROR] Exiting application
+2021-11-27 11:58:04,381 [INFO] Stopping SparkSession
+2021-11-27 11:59:12,968 [INFO] Starting Spark Application with id: local-1638010751775
+2021-11-27 11:59:15,268 [ERROR] Exiting application
+2021-11-27 11:59:15,268 [INFO] Stopping SparkSession
+2021-11-27 12:05:39,125 [INFO] Starting Spark Application with id: local-1638011137893
+2021-11-27 12:05:41,459 [ERROR] Exiting application
+2021-11-27 12:05:41,459 [INFO] Stopping SparkSession
+2021-11-27 12:06:30,666 [INFO] Starting Spark Application with id: local-1638011189429
+2021-11-27 12:06:33,131 [ERROR] Exiting application
+2021-11-27 12:06:33,132 [INFO] Stopping SparkSession
+2021-11-27 12:08:25,373 [INFO] Starting Spark Application with id: local-1638011304169
+2021-11-27 12:08:30,113 [INFO] Completed Spark Application id: local-1638011304169
+2021-11-27 12:08:30,113 [INFO] Stopping SparkSession
+2021-11-27 12:11:59,358 [INFO] Starting Spark Application with id: local-1638011518156
+2021-11-27 12:11:59,359 [ERROR] Exiting application
+2021-11-27 12:11:59,359 [INFO] Stopping SparkSession
+2021-11-27 12:12:29,666 [INFO] Starting Spark Application with id: local-1638011548430
+2021-11-27 12:12:34,417 [INFO] Completed Spark Application id: local-1638011548430
+2021-11-27 12:12:34,417 [INFO] Stopping SparkSession
+2021-11-27 12:12:55,982 [INFO] Starting Spark Application with id: local-1638011574747
+2021-11-27 12:13:00,806 [INFO] Completed Spark Application id: local-1638011574747
+2021-11-27 12:13:00,806 [INFO] Stopping SparkSession
+2021-11-27 12:13:45,379 [INFO] Starting Spark Application with id: local-1638011624113
+2021-11-27 12:13:51,257 [INFO] Completed Spark Application id: local-1638011624113
+2021-11-27 12:13:51,257 [INFO] Stopping SparkSession
+2021-11-27 12:14:57,858 [INFO] Starting Spark Application with id: local-1638011696630
+2021-11-27 12:15:03,292 [INFO] Completed Spark Application id: local-1638011696630
+2021-11-27 12:15:03,292 [INFO] Stopping SparkSession
+2021-11-27 12:17:09,243 [INFO] Starting Spark Application with id: local-1638011827998
+2021-11-27 12:17:14,005 [ERROR] Exiting application
+2021-11-27 12:17:14,005 [INFO] Stopping SparkSession
+2021-11-27 12:17:52,849 [INFO] Starting Spark Application with id: local-1638011871538
+2021-11-27 12:17:55,774 [ERROR] Exiting application
+2021-11-27 12:17:55,774 [INFO] Stopping SparkSession
+2021-11-27 12:18:15,723 [INFO] Starting Spark Application with id: local-1638011894495
+2021-11-27 12:18:21,052 [INFO] Completed Spark Application id: local-1638011894495
+2021-11-27 12:18:21,052 [INFO] Stopping SparkSession
+2021-11-27 12:27:07,509 [INFO] Starting Spark Application with id: local-1638012426303
+2021-11-27 12:27:07,509 [ERROR] Exiting application
+2021-11-27 12:27:07,509 [INFO] Stopping SparkSession
+2021-11-27 12:30:01,478 [INFO] Starting Spark Application with id: local-1638012600263
+2021-11-27 12:30:04,294 [ERROR] Exiting application
+2021-11-27 12:30:04,294 [INFO] Stopping SparkSession
+2021-11-27 13:01:21,584 [INFO] Starting Spark Application with id: local-1638014480390
+2021-11-27 13:01:26,776 [INFO] Completed Spark Application id: local-1638014480390
+2021-11-27 13:01:26,776 [INFO] Stopping SparkSession
+2021-11-27 13:07:29,637 [INFO] Starting Spark Application with id: local-1638014848445
+2021-11-27 13:07:32,389 [ERROR] Exiting application
+2021-11-27 13:07:32,389 [INFO] Stopping SparkSession
+2021-11-27 13:07:49,368 [INFO] Starting Spark Application with id: local-1638014868190
+2021-11-27 13:07:54,340 [INFO] Completed Spark Application id: local-1638014868190
+2021-11-27 13:07:54,340 [INFO] Stopping SparkSession
+2021-11-27 13:09:46,912 [INFO] Starting Spark Application with id: local-1638014985695
+2021-11-27 13:09:51,776 [INFO] Completed Spark Application id: local-1638014985695
+2021-11-27 13:09:51,776 [INFO] Stopping SparkSession
+2021-11-27 15:23:46,475 [INFO] Starting Spark Application with id: local-1638023025267
+2021-11-27 15:23:46,475 [INFO] Starting main process
+2021-11-27 15:23:51,386 [INFO] enriching data from raw
+2021-11-27 15:23:51,632 [INFO] loading data into parse
+2021-11-27 15:24:00,649 [INFO] Completed main process
+2021-11-27 15:24:00,649 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:24:00,650 [ERROR] Exiting application
+2021-11-27 15:24:00,650 [INFO] Stopping SparkSession
+2021-11-27 15:26:31,635 [INFO] Starting Spark Application with id: local-1638023190400
+2021-11-27 15:26:31,636 [INFO] Starting main process
+2021-11-27 15:26:36,783 [INFO] enriching data from raw
+2021-11-27 15:26:37,007 [INFO] loading data into parse
+2021-11-27 15:26:44,971 [INFO] Completed main process
+2021-11-27 15:26:44,972 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:26:44,972 [ERROR] Exiting application
+2021-11-27 15:26:44,972 [INFO] Stopping SparkSession
+2021-11-27 15:28:20,294 [INFO] Starting Spark Application with id: local-1638023299120
+2021-11-27 15:28:20,294 [INFO] Starting main process
+2021-11-27 15:28:25,273 [INFO] enriching data from raw
+2021-11-27 15:28:25,502 [INFO] loading data into parse
+2021-11-27 15:28:33,961 [INFO] Completed main process
+2021-11-27 15:28:33,961 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:28:33,961 [ERROR] Exiting application
+2021-11-27 15:28:33,962 [INFO] Stopping SparkSession
+2021-11-27 15:28:48,189 [INFO] Starting Spark Application with id: local-1638023326991
+2021-11-27 15:28:48,189 [INFO] Starting main process
+2021-11-27 15:28:53,015 [INFO] enriching data from raw
+2021-11-27 15:28:53,240 [INFO] loading data into parse
+2021-11-27 15:29:01,979 [INFO] Completed main process
+2021-11-27 15:29:01,979 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:29:01,979 [ERROR] Exiting application
+2021-11-27 15:29:01,979 [INFO] Stopping SparkSession
+2021-11-27 15:32:47,715 [INFO] Starting Spark Application with id: local-1638023566452
+2021-11-27 15:32:47,716 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:32:47,716 [ERROR] Exiting application
+2021-11-27 15:32:47,716 [INFO] Stopping SparkSession
+2021-11-27 15:36:56,669 [INFO] Starting Spark Application with id: local-1638023815416
+2021-11-27 15:36:56,670 [INFO] Starting main process
+2021-11-27 15:37:01,751 [INFO] enriching data from raw
+2021-11-27 15:37:01,960 [INFO] loading data into parse
+2021-11-27 15:37:09,993 [INFO] Completed main process
+2021-11-27 15:37:09,993 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:37:09,993 [ERROR] Exiting application
+2021-11-27 15:37:09,993 [INFO] Stopping SparkSession
+2021-11-27 15:38:11,884 [INFO] Starting Spark Application with id: local-1638023890689
+2021-11-27 15:38:11,885 [INFO] Starting main process
+2021-11-27 15:38:17,271 [INFO] enriching data from raw
+2021-11-27 15:38:17,491 [INFO] loading data into parse
+2021-11-27 15:38:26,218 [INFO] Completed main process
+2021-11-27 15:38:26,218 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:38:26,218 [ERROR] Exiting application
+2021-11-27 15:38:26,218 [INFO] Stopping SparkSession
+2021-11-27 15:38:58,571 [INFO] Starting Spark Application with id: local-1638023937369
+2021-11-27 15:38:58,571 [INFO] Starting main process
+2021-11-27 15:39:04,145 [INFO] enriching data from raw
+2021-11-27 15:39:04,356 [INFO] loading data into parse
+2021-11-27 15:39:12,339 [INFO] Completed main process
+2021-11-27 15:39:12,339 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:39:12,339 [ERROR] Exiting application
+2021-11-27 15:39:12,339 [INFO] Stopping SparkSession
+2021-11-27 15:40:27,290 [INFO] Starting Spark Application with id: local-1638024026103
+2021-11-27 15:40:27,290 [INFO] Starting main process
+2021-11-27 15:40:32,212 [INFO] enriching data from raw
+2021-11-27 15:40:32,419 [INFO] loading data into parse
+2021-11-27 15:40:40,875 [INFO] Completed main process
+2021-11-27 15:40:40,875 [INFO] Completed Spark Application id: local-1638024026103
+2021-11-27 15:40:40,875 [INFO] Stopping SparkSession
+2021-11-27 15:51:20,306 [INFO] Starting Spark Application with id: local-1638024678981
+2021-11-27 15:51:20,306 [INFO] Starting main process
+2021-11-27 15:51:25,397 [INFO] enriching data from raw
+2021-11-27 15:51:25,623 [INFO] loading data into parse
+2021-11-27 15:51:34,457 [INFO] Completed main process
+2021-11-27 15:51:34,457 [INFO] Completed Spark Application id: local-1638024678981
+2021-11-27 15:51:34,457 [INFO] Stopping SparkSession
+2021-11-27 15:51:46,400 [INFO] Starting Spark Application with id: local-1638024705175
+2021-11-27 15:51:46,401 [INFO] Completed Spark Application id: local-1638024705175
+2021-11-27 15:51:46,401 [INFO] Stopping SparkSession
+2021-11-27 15:53:07,123 [INFO] Starting Spark Application with id: local-1638024785914
+2021-11-27 15:53:07,123 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 15:53:07,123 [ERROR] Exiting application
+2021-11-27 15:53:07,123 [INFO] Stopping SparkSession
+2021-11-27 15:53:20,422 [INFO] Starting Spark Application with id: local-1638024799214
+2021-11-27 15:53:20,422 [INFO] Starting main process
+2021-11-27 15:53:25,545 [INFO] enriching data from raw
+2021-11-27 15:53:25,829 [INFO] loading data into parse
+2021-11-27 15:53:34,339 [INFO] Completed main process
+2021-11-27 15:53:34,339 [INFO] Completed Spark Application id: local-1638024799214
+2021-11-27 15:53:34,339 [INFO] Stopping SparkSession
+2021-11-27 16:00:26,143 [INFO] Starting Spark Application with id: local-1638025224914
+2021-11-27 16:00:26,143 [ERROR] Please provide valid task name. Check documentation
+2021-11-27 16:00:26,143 [ERROR] Exiting application
+2021-11-27 16:00:26,143 [INFO] Stopping SparkSession
+2021-11-27 17:46:46,889 [INFO] Starting Spark Application with id: local-1638031605682
+2021-11-27 17:46:46,889 [INFO] Starting main process
+2021-11-27 17:46:52,631 [INFO] enriching data from raw
+2021-11-27 17:46:53,004 [ERROR] error while enriching data for stage
+2021-11-27 17:46:53,004 [ERROR] cannot resolve 'publish_year' given input columns: [new_publish_date, publish_date];
+'Filter ('publish_year > 1950)
++- Project [publish_date#57, parse_datetime(publish_date#57) AS new_publish_date#541]
+   +- Project [publish_date#57]
+      +- Filter (number_of_pages#46L > cast(20 as bigint))
+         +- Filter isnotnull(title#72)
+            +- Relation [alternate_names#7,authors#8,bio#9,birth_date#10,by_statement#11,contributions#12,contributors#13,copyright_date#14,covers#15,created#16,death_date#17,description#18,dewey_decimal_class#19,dewey_number#20,download_url#21,edition_name#22,excerpts#23,first_publish_date#24,first_sentence#25,full_title#26,fuller_name#27,genres#28,ia_box_id#29,ia_loaded_id#30,... 52 more fields] json
+
+2021-11-27 17:46:53,012 [ERROR] Exiting main process
+2021-11-27 17:46:53,012 [ERROR] Exiting application
+2021-11-27 17:46:53,012 [INFO] Stopping SparkSession
+2021-11-27 17:49:58,222 [INFO] Starting Spark Application with id: local-1638031797022
+2021-11-27 17:49:58,222 [INFO] Starting main process
+2021-11-27 17:50:03,026 [INFO] enriching data from raw
+2021-11-27 17:50:03,356 [ERROR] error while enriching data for stage
+2021-11-27 17:50:03,356 [ERROR] cannot resolve 'publish_year' given input columns: [day, month, new_publish_date, publish_date, year];
+'Filter ('publish_year > 1950)
++- Project [publish_date#57, new_publish_date#541, year#544, month#548, split(cast(new_publish_date#541 as string), -, -1)[2] AS day#553]
+   +- Project [publish_date#57, new_publish_date#541, year#544, split(cast(new_publish_date#541 as string), -, -1)[1] AS month#548]
+      +- Project [publish_date#57, new_publish_date#541, split(cast(new_publish_date#541 as string), -, -1)[0] AS year#544]
+         +- Project [publish_date#57, parse_datetime(publish_date#57) AS new_publish_date#541]
+            +- Project [publish_date#57]
+               +- Filter (number_of_pages#46L > cast(20 as bigint))
+                  +- Filter isnotnull(title#72)
+                     +- Relation [alternate_names#7,authors#8,bio#9,birth_date#10,by_statement#11,contributions#12,contributors#13,copyright_date#14,covers#15,created#16,death_date#17,description#18,dewey_decimal_class#19,dewey_number#20,download_url#21,edition_name#22,excerpts#23,first_publish_date#24,first_sentence#25,full_title#26,fuller_name#27,genres#28,ia_box_id#29,ia_loaded_id#30,... 52 more fields] json
+
+2021-11-27 17:50:03,362 [ERROR] Exiting main process
+2021-11-27 17:50:03,362 [ERROR] Exiting application
+2021-11-27 17:50:03,362 [INFO] Stopping SparkSession
+2021-11-27 17:50:42,167 [INFO] Starting Spark Application with id: local-1638031840987
+2021-11-27 17:50:42,167 [INFO] Starting main process
+2021-11-27 17:50:46,956 [INFO] enriching data from raw
+2021-11-27 17:50:47,247 [INFO] loading data into parse
+2021-11-27 17:50:51,795 [ERROR] error while writing data in parse
+2021-11-27 17:50:51,796 [ERROR] An error occurred while calling o76.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 1.0 failed 1 times, most recent failure: Lost task 1.0 in stage 1.0 (TID 13) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 619, in main
+    process()
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 611, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 211, in dump_stream
+    self.serializer.dump_stream(self._batched(iterator), stream)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 132, in dump_stream
+    for obj in iterator:
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 200, in _batched
+    for item in iterator:
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 452, in mapper
+    result = tuple(f(*[a[o] for o in arg_offsets]) for (arg_offsets, f) in udfs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 452, in <genexpr>
+    result = tuple(f(*[a[o] for o in arg_offsets]) for (arg_offsets, f) in udfs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 85, in <lambda>
+    return lambda *a: toInternal(f(*a))
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/sql/types.py", line 165, in toInternal
+    return d.toordinal() - self.EPOCH_ORDINAL
+AttributeError: 'str' object has no attribute 'toordinal'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 619, in main
+    process()
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 611, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 211, in dump_stream
+    self.serializer.dump_stream(self._batched(iterator), stream)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 132, in dump_stream
+    for obj in iterator:
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/serializers.py", line 200, in _batched
+    for item in iterator:
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 452, in mapper
+    result = tuple(f(*[a[o] for o in arg_offsets]) for (arg_offsets, f) in udfs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 452, in <genexpr>
+    result = tuple(f(*[a[o] for o in arg_offsets]) for (arg_offsets, f) in udfs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/worker.py", line 85, in <lambda>
+    return lambda *a: toInternal(f(*a))
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/sql/types.py", line 165, in toInternal
+    return d.toordinal() - self.EPOCH_ORDINAL
+AttributeError: 'str' object has no attribute 'toordinal'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 17:50:51,889 [ERROR] Exiting main process
+2021-11-27 17:50:51,889 [ERROR] Exiting application
+2021-11-27 17:50:51,889 [INFO] Stopping SparkSession
+2021-11-27 17:51:57,824 [INFO] Starting Spark Application with id: local-1638031916614
+2021-11-27 17:51:57,824 [INFO] Starting main process
+2021-11-27 17:52:02,548 [INFO] enriching data from raw
+2021-11-27 17:52:02,828 [INFO] loading data into parse
+2021-11-27 17:52:07,626 [ERROR] error while writing data in parse
+2021-11-27 17:52:07,626 [ERROR] An error occurred while calling o76.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 5 in stage 1.0 failed 1 times, most recent failure: Lost task 5.0 in stage 1.0 (TID 17) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 22, in parse_datetime
+    dt = parse(column, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: uuuu
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 22, in parse_datetime
+    dt = parse(column, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: uuuu
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 17:52:07,733 [ERROR] Exiting main process
+2021-11-27 17:52:07,733 [ERROR] Exiting application
+2021-11-27 17:52:07,733 [INFO] Stopping SparkSession
+2021-11-27 17:58:26,297 [INFO] Starting Spark Application with id: local-1638032305047
+2021-11-27 17:58:26,297 [INFO] Starting main process
+2021-11-27 17:58:31,172 [INFO] enriching data from raw
+2021-11-27 17:58:31,442 [INFO] loading data into parse
+2021-11-27 17:58:36,318 [ERROR] error while writing data in parse
+2021-11-27 17:58:36,318 [ERROR] An error occurred while calling o76.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 5 in stage 1.0 failed 1 times, most recent failure: Lost task 5.0 in stage 1.0 (TID 17) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 22, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: uuuu
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 22, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: uuuu
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 17:58:36,405 [ERROR] Exiting main process
+2021-11-27 17:58:36,405 [ERROR] Exiting application
+2021-11-27 17:58:36,405 [INFO] Stopping SparkSession
+2021-11-27 18:04:55,146 [INFO] Starting Spark Application with id: local-1638032693927
+2021-11-27 18:04:55,146 [INFO] Starting main process
+2021-11-27 18:05:00,041 [INFO] enriching data from raw
+2021-11-27 18:05:00,309 [INFO] loading data into parse
+2021-11-27 18:05:05,010 [ERROR] error while writing data in parse
+2021-11-27 18:05:05,011 [ERROR] An error occurred while calling o76.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 8 in stage 1.0 failed 1 times, most recent failure: Lost task 8.0 in stage 1.0 (TID 20) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 21, in parse_datetime
+    if val.replace("uuuu", "") is not None:
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 21, in parse_datetime
+    if val.replace("uuuu", "") is not None:
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:05:05,097 [ERROR] Exiting main process
+2021-11-27 18:05:05,097 [ERROR] Exiting application
+2021-11-27 18:05:05,097 [INFO] Stopping SparkSession
+2021-11-27 18:05:38,679 [INFO] Starting Spark Application with id: local-1638032737466
+2021-11-27 18:05:38,679 [INFO] Starting main process
+2021-11-27 18:05:43,718 [INFO] enriching data from raw
+2021-11-27 18:05:43,993 [INFO] loading data into parse
+2021-11-27 18:05:48,814 [ERROR] error while writing data in parse
+2021-11-27 18:05:48,815 [ERROR] An error occurred while calling o76.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 9 in stage 1.0 failed 1 times, most recent failure: Lost task 9.0 in stage 1.0 (TID 21) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 21, in parse_datetime
+    val = val.replace("uuuu", "")
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 21, in parse_datetime
+    val = val.replace("uuuu", "")
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:05:48,900 [ERROR] Exiting main process
+2021-11-27 18:05:48,901 [ERROR] Exiting application
+2021-11-27 18:05:48,901 [INFO] Stopping SparkSession
+2021-11-27 18:06:33,331 [INFO] Starting Spark Application with id: local-1638032792086
+2021-11-27 18:06:33,331 [INFO] Starting main process
+2021-11-27 18:06:33,726 [INFO] Error while receiving.
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=4>
+2021-11-27 18:06:33,727 [INFO] Closing down clientserver connection
+2021-11-27 18:06:33,727 [ERROR] Exception while sending command.
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=4>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 503, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2021-11-27 18:06:33,728 [INFO] Error while receiving.
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/context.py", line 292, in signal_handler
+    self.cancelAllJobs()
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/context.py", line 1195, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1309, in __call__
+    return_value = get_return_value(
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/sql/utils.py", line 111, in deco
+    return f(*a, **kw)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o12.sc
+2021-11-27 18:06:33,729 [INFO] Closing down clientserver connection
+2021-11-27 18:06:33,729 [ERROR] Exception while sending command.
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/context.py", line 292, in signal_handler
+    self.cancelAllJobs()
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/context.py", line 1195, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1309, in __call__
+    return_value = get_return_value(
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/pyspark/sql/utils.py", line 111, in deco
+    return f(*a, **kw)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o12.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 503, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2021-11-27 18:06:33,729 [ERROR] Exiting main process
+2021-11-27 18:06:33,729 [ERROR] Exiting application
+2021-11-27 18:06:33,729 [INFO] Stopping SparkSession
+2021-11-27 18:06:47,463 [INFO] Starting Spark Application with id: local-1638032806297
+2021-11-27 18:06:47,463 [INFO] Starting main process
+2021-11-27 18:06:52,323 [INFO] enriching data from raw
+2021-11-27 18:06:52,604 [INFO] loading data into parse
+2021-11-27 18:06:57,472 [ERROR] error while writing data in parse
+2021-11-27 18:06:57,473 [ERROR] An error occurred while calling o76.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 6 in stage 1.0 failed 1 times, most recent failure: Lost task 6.0 in stage 1.0 (TID 18) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 23, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date:     
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 23, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date:     
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:06:57,561 [ERROR] Exiting main process
+2021-11-27 18:06:57,561 [ERROR] Exiting application
+2021-11-27 18:06:57,561 [INFO] Stopping SparkSession
+2021-11-27 18:08:03,702 [INFO] Starting Spark Application with id: local-1638032882511
+2021-11-27 18:08:03,702 [INFO] Starting main process
+2021-11-27 18:08:08,395 [INFO] enriching data from raw
+2021-11-27 18:08:08,664 [INFO] loading data into parse
+2021-11-27 18:08:13,367 [ERROR] error while writing data in parse
+2021-11-27 18:08:13,367 [ERROR] An error occurred while calling o79.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 3 in stage 1.0 failed 1 times, most recent failure: Lost task 3.0 in stage 1.0 (TID 15) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 23, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: 187u
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.takeDestructively(Iterator.scala:1160)
+	at scala.collection.Iterator$GroupedIterator.go(Iterator.scala:1176)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1214)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 23, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: 187u
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.takeDestructively(Iterator.scala:1160)
+	at scala.collection.Iterator$GroupedIterator.go(Iterator.scala:1176)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1214)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:08:13,457 [ERROR] Exiting main process
+2021-11-27 18:08:13,458 [ERROR] Exiting application
+2021-11-27 18:08:13,458 [INFO] Stopping SparkSession
+2021-11-27 18:11:31,533 [INFO] Starting Spark Application with id: local-1638033090333
+2021-11-27 18:11:31,533 [INFO] Starting main process
+2021-11-27 18:11:36,269 [INFO] enriching data from raw
+2021-11-27 18:11:36,550 [INFO] loading data into parse
+2021-11-27 18:11:41,446 [ERROR] error while writing data in parse
+2021-11-27 18:11:41,446 [ERROR] An error occurred while calling o79.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 5 in stage 1.0 failed 1 times, most recent failure: Lost task 5.0 in stage 1.0 (TID 17) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: 
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: 
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:11:41,532 [ERROR] Exiting main process
+2021-11-27 18:11:41,533 [ERROR] Exiting application
+2021-11-27 18:11:41,534 [INFO] Stopping SparkSession
+2021-11-27 18:12:32,476 [INFO] Starting Spark Application with id: local-1638033151284
+2021-11-27 18:12:32,476 [INFO] Starting main process
+2021-11-27 18:12:37,502 [INFO] enriching data from raw
+2021-11-27 18:12:37,778 [INFO] loading data into parse
+2021-11-27 18:12:42,527 [ERROR] error while writing data in parse
+2021-11-27 18:12:42,527 [ERROR] An error occurred while calling o79.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 5 in stage 1.0 failed 1 times, most recent failure: Lost task 5.0 in stage 1.0 (TID 17) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: 
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date: 
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:12:42,612 [ERROR] Exiting main process
+2021-11-27 18:12:42,613 [ERROR] Exiting application
+2021-11-27 18:12:42,614 [INFO] Stopping SparkSession
+2021-11-27 18:15:13,653 [INFO] Starting Spark Application with id: local-1638033312450
+2021-11-27 18:15:13,653 [INFO] Starting main process
+2021-11-27 18:15:18,380 [INFO] enriching data from raw
+2021-11-27 18:15:18,662 [INFO] loading data into parse
+2021-11-27 18:15:23,355 [ERROR] error while writing data in parse
+2021-11-27 18:15:23,355 [ERROR] An error occurred while calling o79.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 6 in stage 1.0 failed 1 times, most recent failure: Lost task 6.0 in stage 1.0 (TID 18) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date:     
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date:     
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:15:23,445 [ERROR] Exiting main process
+2021-11-27 18:15:23,447 [ERROR] Exiting application
+2021-11-27 18:15:23,447 [INFO] Stopping SparkSession
+2021-11-27 18:16:00,599 [INFO] Starting Spark Application with id: local-1638033359334
+2021-11-27 18:16:00,599 [INFO] Starting main process
+2021-11-27 18:16:05,593 [INFO] enriching data from raw
+2021-11-27 18:16:05,886 [INFO] loading data into parse
+2021-11-27 18:16:10,631 [ERROR] error while writing data in parse
+2021-11-27 18:16:10,631 [ERROR] An error occurred while calling o79.orc.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.jobAbortedError(QueryExecutionErrors.scala:496)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:251)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:186)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:110)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:106)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:82)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:481)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:30)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:457)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:106)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:93)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:91)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:128)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:848)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:382)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:355)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.orc(DataFrameWriter.scala:799)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 6 in stage 1.0 failed 1 times, most recent failure: Lost task 6.0 in stage 1.0 (TID 18) (arao-XPS-15-9500.fritz.box executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date:     
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2403)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2352)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2351)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2351)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1109)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1109)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2591)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2533)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2522)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:898)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2214)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:218)
+	... 42 more
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/utils/utils.py", line 26, in parse_datetime
+    dt = parse(val, default=date(1900, 1, 1), fuzzy=True, ignoretz=True)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 646, in parse
+    raise ParserError("String does not contain a date: %s", timestr)
+dateutil.parser._parser.ParserError: String does not contain a date:     
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:545)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:86)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:68)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:498)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:759)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at org.apache.spark.ContextAwareIterator.hasNext(ContextAwareIterator.scala:39)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1217)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at org.apache.spark.api.python.PythonRDD$.writeIteratorToStream(PythonRDD.scala:307)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$1.writeIteratorToStream(PythonUDFRunner.scala:53)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.$anonfun$run$1(PythonRunner.scala:424)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:2019)
+	at org.apache.spark.api.python.BasePythonRunner$WriterThread.run(PythonRunner.scala:259)
+
+2021-11-27 18:16:10,721 [ERROR] Exiting main process
+2021-11-27 18:16:10,721 [ERROR] Exiting application
+2021-11-27 18:16:10,723 [INFO] Stopping SparkSession
+2021-11-27 18:17:27,509 [INFO] Starting Spark Application with id: local-1638033446295
+2021-11-27 18:17:27,509 [INFO] Starting main process
+2021-11-27 18:17:32,302 [INFO] enriching data from raw
+2021-11-27 18:17:32,591 [INFO] loading data into parse
+2021-11-27 18:17:38,887 [INFO] Completed main process
+2021-11-27 18:17:38,887 [INFO] Completed Spark Application id: local-1638033446295
+2021-11-27 18:17:38,887 [INFO] Stopping SparkSession
+2021-11-27 18:20:27,348 [INFO] Starting Spark Application with id: local-1638033626141
+2021-11-27 18:20:27,348 [INFO] Starting main process
+2021-11-27 18:20:32,352 [INFO] enriching data from raw
+2021-11-27 18:20:32,813 [INFO] loading data into parse
+2021-11-27 18:20:43,502 [INFO] Completed main process
+2021-11-27 18:20:43,502 [INFO] Completed Spark Application id: local-1638033626141
+2021-11-27 18:20:43,502 [INFO] Stopping SparkSession
+2021-11-27 18:55:32,660 [INFO] Starting Spark Application with id: local-1638035731392
+2021-11-27 18:55:32,660 [ERROR] invalid task name. Check documentation
+2021-11-27 18:55:32,661 [ERROR] Exiting application
+2021-11-27 18:55:32,661 [INFO] Stopping SparkSession
+2021-11-27 18:56:04,703 [INFO] Starting Spark Application with id: local-1638035763475
+2021-11-27 18:56:10,271 [INFO] Completed Spark Application id: local-1638035763475
+2021-11-27 18:56:10,271 [INFO] Stopping SparkSession
+2021-11-27 18:57:46,547 [INFO] Starting Spark Application with id: local-1638035865322
+2021-11-27 18:57:53,064 [INFO] Completed Spark Application id: local-1638035865322
+2021-11-27 18:57:53,064 [INFO] Stopping SparkSession
+2021-11-27 19:06:50,597 [INFO] Starting Spark Application with id: local-1638036409381
+2021-11-27 19:06:50,597 [ERROR] Invalid task name. Check documentation
+2021-11-27 19:06:50,597 [ERROR] Exiting application
+2021-11-27 19:06:50,597 [INFO] Stopping SparkSession
+2021-11-27 19:07:14,506 [INFO] Starting Spark Application with id: local-1638036433308
+2021-11-27 19:07:19,655 [INFO] Completed Spark Application id: local-1638036433308
+2021-11-27 19:07:19,655 [INFO] Stopping SparkSession
+2021-11-28 10:03:56,592 [INFO] Starting Spark Application with id: local-1638090235332
+2021-11-28 10:04:02,998 [INFO] Completed Spark Application id: local-1638090235332
+2021-11-28 10:04:02,998 [INFO] Stopping SparkSession
+2021-11-28 10:06:33,568 [INFO] Starting Spark Application with id: local-1638090392283
+2021-11-28 10:06:33,569 [ERROR] Invalid task name. Check documentation
+2021-11-28 10:06:33,569 [ERROR] Exiting application
+2021-11-28 10:06:33,569 [INFO] Stopping SparkSession
+2021-11-28 10:06:53,299 [INFO] Starting Spark Application with id: local-1638090412085
+2021-11-28 10:06:59,720 [INFO] Completed Spark Application id: local-1638090412085
+2021-11-28 10:06:59,720 [INFO] Stopping SparkSession
+2021-11-28 10:38:31,459 [INFO] Starting Spark Application with id: local-1638092310241
+2021-11-28 10:38:37,894 [INFO] Completed Spark Application id: local-1638092310241
+2021-11-28 10:38:37,895 [INFO] Stopping SparkSession
+2021-11-28 10:45:34,921 [INFO] Starting Spark Application with id: local-1638092733683
+2021-11-28 10:45:41,331 [INFO] Completed Spark Application id: local-1638092733683
+2021-11-28 10:45:41,332 [INFO] Stopping SparkSession
+2021-11-28 10:59:03,731 [INFO] Starting Spark Application with id: local-1638093542476
+2021-11-28 10:59:03,731 [ERROR] Exiting application
+2021-11-28 10:59:03,731 [INFO] Stopping SparkSession
+2021-11-28 11:01:33,773 [INFO] Starting Spark Application with id: local-1638093692553
+2021-11-28 11:01:33,774 [ERROR] Exiting application
+2021-11-28 11:01:33,774 [INFO] Stopping SparkSession
+2021-11-28 11:02:02,902 [INFO] Starting Spark Application with id: local-1638093721679
+2021-11-28 11:02:02,902 [ERROR] Exiting application
+2021-11-28 11:02:02,903 [INFO] Stopping SparkSession
+2021-11-28 11:02:39,800 [INFO] Starting Spark Application with id: local-1638093758582
+2021-11-28 11:02:39,801 [ERROR] Exiting application
+2021-11-28 11:02:39,801 [INFO] Stopping SparkSession
+2021-11-28 11:02:52,102 [INFO] Starting Spark Application with id: local-1638093770855
+2021-11-28 11:02:52,104 [ERROR] Exiting application
+2021-11-28 11:02:52,104 [INFO] Stopping SparkSession
+2021-11-28 11:03:22,380 [INFO] Starting Spark Application with id: local-1638093801155
+2021-11-28 11:03:22,382 [ERROR] Exiting application
+2021-11-28 11:03:22,382 [INFO] Stopping SparkSession
+2021-11-28 11:05:15,703 [INFO] Starting Spark Application with id: local-1638093914481
+2021-11-28 11:05:15,704 [ERROR] Exiting application
+2021-11-28 11:05:15,705 [INFO] Stopping SparkSession
+2021-11-28 11:05:58,419 [INFO] Starting Spark Application with id: local-1638093957200
+2021-11-28 11:06:04,760 [INFO] Completed Spark Application id: local-1638093957200
+2021-11-28 11:06:04,761 [INFO] Stopping SparkSession
+2021-11-28 12:53:48,361 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 12:54:11,450 [INFO] file:ol_cdump.json successfully downloaded
+2021-11-28 13:02:40,692 [INFO] Starting to download file:ol_cdump1.json
+2021-11-28 13:02:40,895 [ERROR] failed to download file:ol_cdump1.json
+2021-11-28 13:02:40,896 [ERROR] HTTP Error 403: Forbidden
+2021-11-28 13:03:47,917 [INFO] Starting to download file:ol_cdump1.json
+2021-11-28 13:03:48,139 [ERROR] Failed to download file:ol_cdump1.json
+2021-11-28 13:03:48,139 [ERROR] HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 20, in download
+    wget.download(self.url, out=self.out_dir, bar=self._bar_progress)
+  File "/home/arao/PycharmProjects/Personal/adidas/venv/lib/python3.8/site-packages/wget.py", line 526, in download
+    (tmpfile, headers) = ulib.urlretrieve(binurl, tmpfile, callback)
+  File "/usr/lib/python3.8/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.8/urllib/request.py", line 640, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.8/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+2021-11-28 14:09:22,825 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:09:48,450 [INFO] file:ol_cdump.json successfully downloaded
+2021-11-28 14:12:03,063 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:12:20,521 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:12:20,521 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:12:20,521 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 22, in download
+    os.remove(self.out_dir + '/' + self.url.split('/')[-1])
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:13:43,727 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:13:43,728 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:13:43,728 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 22, in download
+    os.remove(self.out_dir + '/' + self.url.split('/')[-1])
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:15:03,286 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:15:03,286 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:15:03,286 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 22, in download
+    os.remove(self.out_dir + '/' + self.file_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:15:49,524 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:15:49,524 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:15:49,524 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 23, in download
+    os.remove(self.out_dir + '/' + self.file_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:16:49,350 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:16:49,350 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:16:49,350 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 23, in download
+    rmtree(self.out_dir + '/' + self.file_name)
+  File "/usr/lib/python3.8/shutil.py", line 709, in rmtree
+    onerror(os.lstat, path, sys.exc_info())
+  File "/usr/lib/python3.8/shutil.py", line 707, in rmtree
+    orig_st = os.lstat(path)
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:17:27,244 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:17:27,244 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:17:27,244 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 23, in download
+    rmtree(self.out_dir + '/' + self.file_name)
+  File "/usr/lib/python3.8/shutil.py", line 709, in rmtree
+    onerror(os.lstat, path, sys.exc_info())
+  File "/usr/lib/python3.8/shutil.py", line 707, in rmtree
+    orig_st = os.lstat(path)
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:18:21,615 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:18:21,615 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:18:21,615 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 25, in download
+    rmtree(self.out_dir + '/' + self.file_name)
+  File "/usr/lib/python3.8/shutil.py", line 709, in rmtree
+    onerror(os.lstat, path, sys.exc_info())
+  File "/usr/lib/python3.8/shutil.py", line 707, in rmtree
+    orig_st = os.lstat(path)
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:19:50,650 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:19:50,650 [ERROR] Failed to download file:ol_cdump.json
+2021-11-28 14:19:50,650 [ERROR] [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+Traceback (most recent call last):
+  File "/home/arao/PycharmProjects/Personal/adidas/adidas/etl/raw_data.py", line 25, in download
+    rmtree(self.out_dir + '/' + self.file_name)
+  File "/usr/lib/python3.8/shutil.py", line 709, in rmtree
+    onerror(os.lstat, path, sys.exc_info())
+  File "/usr/lib/python3.8/shutil.py", line 707, in rmtree
+    orig_st = os.lstat(path)
+FileNotFoundError: [Errno 2] No such file or directory: 'raw//ol_cdump.json'
+2021-11-28 14:22:53,775 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:23:17,234 [INFO] file:ol_cdump.json successfully downloaded
+2021-11-28 14:23:21,893 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:23:43,242 [INFO] file:ol_cdump.json successfully downloaded
+2021-11-28 14:25:32,681 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 14:25:54,680 [INFO] file:ol_cdump.json successfully downloaded
+2021-11-28 15:37:37,785 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 15:38:01,174 [INFO] file:ol_cdump.json successfully downloaded
+2021-11-28 15:38:43,284 [INFO] Starting Spark Application with id: local-1638110322072
+2021-11-28 15:38:43,285 [INFO] Starting main process
+2021-11-28 15:38:48,282 [INFO] enriching data from raw
+2021-11-28 15:38:48,731 [INFO] loading data into parse
+2021-11-28 15:38:59,957 [INFO] Completed main process
+2021-11-28 15:38:59,957 [INFO] Completed Spark Application id: local-1638110322072
+2021-11-28 15:38:59,957 [INFO] Stopping SparkSession
+2021-11-28 15:41:04,560 [INFO] Starting Spark Application with id: local-1638110463265
+2021-11-28 15:41:04,560 [INFO] Starting to execute sql-task_name:get_top_5_genres
+2021-11-28 15:41:10,356 [INFO] Completed execution of sql-task_name:get_top_5_genres
+2021-11-28 15:41:10,356 [INFO] Completed Spark Application id: local-1638110463265
+2021-11-28 15:41:10,356 [INFO] Stopping SparkSession
+2021-11-28 15:41:29,302 [INFO] Starting Spark Application with id: local-1638110488065
+2021-11-28 15:41:29,303 [INFO] Starting to execute sql-task_name:get_book_with_most_pages
+2021-11-28 15:41:34,842 [INFO] Completed execution of sql-task_name:get_book_with_most_pages
+2021-11-28 15:41:34,842 [INFO] Completed Spark Application id: local-1638110488065
+2021-11-28 15:41:34,842 [INFO] Stopping SparkSession
+2021-11-28 15:41:54,109 [INFO] Starting Spark Application with id: local-1638110512884
+2021-11-28 15:41:54,109 [INFO] Starting to execute sql-task_name:get_no_of_published_books_and_authors
+2021-11-28 15:42:01,162 [INFO] Completed execution of sql-task_name:get_no_of_published_books_and_authors
+2021-11-28 15:42:01,162 [INFO] Completed Spark Application id: local-1638110512884
+2021-11-28 15:42:01,162 [INFO] Stopping SparkSession
+2021-11-28 15:42:32,143 [INFO] Starting Spark Application with id: local-1638110550933
+2021-11-28 15:42:32,144 [INFO] Starting to execute sql-task_name:get_no_of_authors_with_one_book_per_yr
+2021-11-28 15:42:38,434 [INFO] Completed execution of sql-task_name:get_no_of_authors_with_one_book_per_yr
+2021-11-28 15:42:38,434 [INFO] Completed Spark Application id: local-1638110550933
+2021-11-28 15:42:38,434 [INFO] Stopping SparkSession
+2021-11-28 15:43:08,037 [INFO] Starting Spark Application with id: local-1638110586803
+2021-11-28 15:43:08,037 [INFO] Starting to execute sql-task_name:get_top_5_coauthors
+2021-11-28 15:43:15,650 [INFO] Completed execution of sql-task_name:get_top_5_coauthors
+2021-11-28 15:43:15,650 [INFO] Completed Spark Application id: local-1638110586803
+2021-11-28 15:43:15,650 [INFO] Stopping SparkSession
+2021-11-28 15:44:10,946 [INFO] Starting Spark Application with id: local-1638110649689
+2021-11-28 15:44:10,946 [INFO] Starting to execute sql-task_name:get_top_5_coauthors
+2021-11-28 15:44:17,416 [INFO] Completed execution of sql-task_name:get_top_5_coauthors
+2021-11-28 15:44:17,417 [INFO] Completed Spark Application id: local-1638110649689
+2021-11-28 15:44:17,417 [INFO] Stopping SparkSession
+2021-11-28 15:55:33,832 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 15:55:59,053 [INFO] Starting to download file:ol_cdump.json
+2021-11-28 15:56:26,469 [INFO] file:ol_cdump.json successfully downloaded

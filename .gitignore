@@ -1,0 +1,9 @@
+*.pyc
+build
+dist
+.pytest_cache
+adidas.egg-info
+venv/
+.cache
+.idea
+.crc
