@@ -22,6 +22,7 @@ Following is the project's structure:
 * mypy : Python static type checker
 * isort : Python package sorter
 * pytest : Python Testing tool
+* setuptools : Python package builder
 
 ## 2. Setup
 
@@ -41,8 +42,6 @@ Navigate to the [makefile](Makefile) and run the below command:
 ```
 run-get-raw-data
 ```
-Change the `task_name` variable. values = `['Task1', 'Task2'] `
-
 `To run etl task in spark local`
 ```
 run-spark-local-etl
