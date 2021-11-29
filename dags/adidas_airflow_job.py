@@ -44,7 +44,7 @@ def _spark_submit_operator(task_type: str, task_name: str) -> BashOperator:
 
 
 with DAG(
-        "adidas_airflow_job", default_args=default_args, schedule_interval=timedelta(1)
+    "adidas_airflow_job", default_args=default_args, schedule_interval=timedelta(1)
 ) as dag:
     print_date = BashOperator(task_id="print_date", bash_command="date")
     get_raw_data = _python_operator(
